@@ -1,0 +1,12 @@
+Input3.txt
+1
+2
+Beta Beta
+1
+2
+Gamma Gamma
+1
+2
+Delta Delta
+1
+5

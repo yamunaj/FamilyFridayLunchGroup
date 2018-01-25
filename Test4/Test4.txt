@@ -1,0 +1,16 @@
+Input.txt
+1
+2
+qwerty
+1
+2
+khfght
+1
+2
+nvxsdfh, piubdkl
+1
+4
+3
+12
+1
+5

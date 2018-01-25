@@ -19,7 +19,7 @@ function RunTest()
 	popd
 }
 
-executable=$1
+executable=LunchGroup.jar
 
 if [[ ! -f $executable ]]; then
 	echo "$executable not found. Skipping runAllTests.sh"

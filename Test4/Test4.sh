@@ -7,7 +7,7 @@ test_param_file='Test4.txt'
 
 
 #java -jar $executable < $test_param_file | grep "Group 2"
-java -jar $executable < $test_param_file
+java -jar $executable < $test_param_file > /dev/stderr
 if [[ "$?" -eq "0" ]]; then 
 	echo "success"
 else

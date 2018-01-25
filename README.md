@@ -9,7 +9,8 @@
 * From terminal, run `sh run.sh`
 
 ### Run Tests
-* To run all tests do `sh runAllTests.sh LunchGroup.jar`
+* To run all tests do `sh runAllTests.sh 2>/dev/null`
+* To enable verbose logging, do `sh runAllTests.sh`
 
 
 ## Assumptions
@@ -26,7 +27,7 @@ The git repository is setup such that directories are downloaded in the way it s
 
 2. Executables
 	* `LunchGroup.jar`
-	* `run` (script)
+	* `run.sh` (script)
 
 3. Auto generated Files
 	* `EmployeesTable`
@@ -38,7 +39,7 @@ The git repository is setup such that directories are downloaded in the way it s
 		- List of all lunch groups generated
 
 4. Test scripts
-	* runAllTests.sh
+	* `runAllTests.s`
 		- Top level script
 		- Invokes the following scripts
 			* `Test[1-7]/Test[1-7].sh`

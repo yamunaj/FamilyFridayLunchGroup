@@ -4,6 +4,8 @@
 ### Execute Program
 * A script is provided as a wrapper to invoke the executable
 * To compile, run `sh compile.sh`
+	- Options to run should be self evident
+	- The initial set of names can be input using a text file or can be entered one by one using `Add New Employee` option.
 	- Compilation should not fail
 	- If it fails rest of the steps will not execute
 * From terminal, run `sh run.sh`

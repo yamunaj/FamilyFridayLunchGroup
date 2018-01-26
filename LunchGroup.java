@@ -223,7 +223,7 @@ public class LunchGroup {
 				System.out.println("3. Delete an Employee");
 				System.out.println("4. List all Employees");
 				System.out.println("5. Exit");
-				System.out.println("\nEnter any option(Eg : 1 or : 4) : ");
+				System.out.println("\nEnter any option(1 through 5) : ");
 
 				int option = Integer.parseInt(scan.nextLine());
 

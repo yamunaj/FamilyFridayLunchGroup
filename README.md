@@ -1,4 +1,4 @@
-#Lunch Group Generation
+# Lunch Group Generation
 
 ## Steps to Execute
 ### Execute Program
@@ -68,7 +68,7 @@ The git repository is setup such that directories are downloaded in the way it s
 ### Test7
 - Tests wrong input file name or file path
 
-##Implementation Details
+## Implementation Details
 
 1. All the employees in the company is stored in a Hashtable with the Employee Id as key and name of the employee as value.
     * For persistence this structure is serialized and written to EmployeesTable file.
@@ -83,7 +83,7 @@ The git repository is setup such that directories are downloaded in the way it s
 5. An employee can be deleted by selecting option 3 and giving the employee id of the person to be deleted. I gave this option in case if there is an erroneous entry or if an employee leaves the company.
 6. Option 4 gives the list of employees with their employee ids.
 
-###Decisions Made
+### Decisions Made
 1. One question I had while creating a lunch group was whether we need to remember lunchgrouping.
     * Then the members must be selected such that they were not grouped together the previously (like a graph connectivity problem).
     * This will require additional storage, as an adjacency matrix.
